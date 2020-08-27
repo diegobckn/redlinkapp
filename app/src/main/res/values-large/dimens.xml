@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="texto_id_principal" tools:ignore="MissingDefaultResource">15sp</dimen>
+    <dimen name="texto_titulo_principal" tools:ignore="MissingDefaultResource">30sp</dimen>
+
+    <dimen name="texto_id_secundario" tools:ignore="MissingDefaultResource">20sp</dimen>
+    <dimen name="texto_titulo_secundario" tools:ignore="MissingDefaultResource">28sp</dimen>
+</resources>
