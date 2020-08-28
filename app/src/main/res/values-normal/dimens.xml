@@ -4,5 +4,6 @@
     <dimen name="texto_titulo_principal" tools:ignore="MissingDefaultResource">20sp</dimen>
 
     <dimen name="texto_id_secundario" tools:ignore="MissingDefaultResource">10sp</dimen>
-    <dimen name="texto_titulo_secundario" tools:ignore="MissingDefaultResource">19sp</dimen>
+    <dimen name="texto_titulo_secundario" tools:ignore="MissingDefaultResource">17sp</dimen>
+    <dimen name="imagen_secundario" tools:ignore="MissingDefaultResource">110dp</dimen>
 </resources>

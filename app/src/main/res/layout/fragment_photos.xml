@@ -5,9 +5,23 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.PhotosFragment">
 
-    <TextView
+    <RelativeLayout
+        android:id="@+id/progress_bar_photo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="8dp"
+        android:id="@+id/recycle_view_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>

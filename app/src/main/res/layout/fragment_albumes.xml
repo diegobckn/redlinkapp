@@ -12,16 +12,23 @@
         android:id="@+id/search_view"
         />
 
+    <RelativeLayout
+        android:id="@+id/progress_bar"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="8dp"
         android:id="@+id/recycle_view_albumes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/ir_photos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ir a fotos" />
 
 </LinearLayout>
