@@ -21,7 +21,6 @@ class AlbumAdapter(private val context: Context, private val albumList: List<Alb
         return MainViewHolder(
             LayoutInflater.from(context).inflate(R.layout.album_rows, parent, false)
         )
-
     }
 
     override fun getItemCount(): Int {
@@ -32,7 +31,6 @@ class AlbumAdapter(private val context: Context, private val albumList: List<Alb
         when (holder) {
             is MainViewHolder -> holder.bind(albumList[position], position)
         }
-
     }
 
     inner class MainViewHolder(itemView: View) : AppViewHolder<Album>(itemView) {
@@ -41,6 +39,5 @@ class AlbumAdapter(private val context: Context, private val albumList: List<Alb
             itemView.title.text = item.title
             itemView.setOnClickListener{itemClickListener.onAlbumClick(item)}
         }
-
     }
 }

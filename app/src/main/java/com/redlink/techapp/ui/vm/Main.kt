@@ -32,7 +32,6 @@ class Main (private val repo: Repo): ViewModel() {
                     emit(repo.getAlbumByTitle(title))
                 }
             }
-
             catch (e:Exception){
                 emit(Request.Failure(e))
             }
@@ -45,7 +44,6 @@ class Main (private val repo: Repo): ViewModel() {
             try {
                 emit(repo.getPhotoByAlbumId(albumId))
             }
-
             catch (e:Exception){
                 emit(Request.Failure(e))
             }

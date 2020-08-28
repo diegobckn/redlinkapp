@@ -9,5 +9,4 @@ interface Repo {
     suspend fun getAlbumByTitle(title: String): Request<List<Album>>
 
     suspend fun getPhotoByAlbumId(albumId: Int): Request<List<Photo>>
-
 }

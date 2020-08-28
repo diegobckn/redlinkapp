@@ -6,7 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface WebService {
-
     @GET("albums")
     suspend fun getAlbumList() : List<Album>
 
